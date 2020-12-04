@@ -11,8 +11,8 @@ var timeTaken;
 var wpm;
 function list()
 {
-        sentences = ["After carefully studying hominin fossils found in Kenya, Ethiopia and Chad, German", "scientists have concluded that 4 distinct human species coexisted at the same", "time about 3 million years ago.  What isn't known is how or if they are related and whether they interacted with one another.","Hard to believe, but true.  Sharks kill an average of 5 people per year while cows kill an average of 22 people per year."];
-} 
+        sentences = ["After carefully studying hominin fossils found in Kenya", "scientists have concluded that 4 distinct human species coexisted at the same", "time about 3 million years ago.  What isn't known is how or if they are related and whether they interacted with one another."];
+}
 //===========Button reset function=======
 function start()
 {  
