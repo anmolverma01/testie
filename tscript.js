@@ -70,7 +70,7 @@ function runshowTime()
     
     showTime[0]=Math.floor((showTime[3]/100)/60);
     showTime[1]=Math.floor((showTime[3]/100)-(showTime[0]*60));
-    timeTaken= parseFloat((showTime[0]+showTime[1])/60);
+    timeTaken= parseFloat(((showTime[0])/60)+((showTime[1])/60));
 }
 function startTime()
 {
