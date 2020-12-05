@@ -86,3 +86,6 @@ let textEnteredLength=document.getElementById('area').value.length;
 
 area.addEventListener("keypress",startTime,false);
 area.addEventListener("keyup",check,false);
+//==========Smartphone events===========
+area.addEventListener("touchstart",startTime,false);
+area.addEventListener("touchstart",check,false);
